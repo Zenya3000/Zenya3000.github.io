@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+<div class="wrapper_header">
+	<div class="header">
+		<div class="logo">	
+			<a href="/"><img src="img/logo.jpg" alt=""></a>
+		</div>
+		<div class="menu">
+				<div class="item active">Personal Plans</div>
+				<div class="item">Business Plan</div>
+				<div class="item">Guide</div>
+				<div class="item">Blog</div>
+		</div>
+		<div class="mobile">
+			<div class="burger">
+				<span class="line one"></span>
+				<span class="line two"></span>
+				<span class="line three"></span>
+			</div>
+		</div>
+	</div>	
+	<div class="mob_menu">
+		<div class="mob_item">Personal Plans</div>
+		<div class="mob_item">Business Plan</div>
+		<div class="mob_item">Guide</div>
+		<div class="mob_item">Blog</div>
+	</div>
+</div>
+<div class="wrapper">
+
+	<div class="content">
+		<div class="insurance_list">
+			<div class="name_ins_list"><span>Insurance list:</span></div>
+			<div class="glyph">
+				<!-- <span class="glyphicon glyphicon-align-justify list_glyph active" aria-hidden="true"></span> -->
+				<img src="img/icon_table.svg" class="glyph_icon active" alt="table" data-icon="table">
+				<span class="h_line"></span>
+				<!-- <span class="glyphicon glyphicon-th-large list_glyph" aria-hidden="true"></span> -->
+				<img src="img/icon_grid.svg" class="glyph_icon" alt="grid" data-icon="grid">
+			</div>
+
+		</div>
+		<line></line>
+
+		<div class="main_table" id="main_table">
+			<div id="table">
+				<div class="top_table">
+					<div class="company table_item"><span>Company</span></div>
+					<div class="covering table_item"><span>Covering</span></div>
+					<div class="type table_item"><span>Type</span></div>
+					<div class="metal_level table_item"><span>Metal level</span></div>
+					<div class="drugs table_item"><span>Drugs</span></div>
+					<div class="primary_care_visits table_item"><span>Primary <br> care visits</span></div>
+					<div class="deductible table_item"><span>Yearly<br> deductible</span></div>
+					<div class="price table_item"><span>Price</span></div>
+					<div class="overview_buy table_item"></div>
+				</div>
+				<div class="data_table" >
+					<div class="item-1 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company1.jpg" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Health</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>PPO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle platinum"></span> <span>Platinum</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>$15</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$75</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$6000</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$356/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-2 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company2.jpg" alt="">
+							<div class="name_company">
+								<span>Health Ins</span>
+								<img src="/img/3-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>All-in-one</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>HMO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle silver"></span> <span>Silver</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>100%</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$45</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$4500</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$611/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-3 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company3.jpg" alt="">
+							<div class="name_company">
+								<span>Dentalife</span>
+								<img src="/img/4-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Dental</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>EPO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle gold"></span> <span>Gold</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>100%</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$75</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$5000</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$283/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-4 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company1.jpg" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Vision</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>POS</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle bronze"></span> <span>Bronze</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>100%</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$60</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$6000</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$300/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-5 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company4.jpg" alt="">
+							<div class="name_company">
+								<span>Medicom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Health</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>PPO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle silver"></span> <span>Silver</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>$20</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>40%</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$6000</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$300/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-6 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company2.jpg" alt="">
+							<div class="name_company">
+								<span>Health Ins</span>
+								<img src="/img/3-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Dental</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>POS</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle platinum"></span> <span>Platinum</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>$15</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$75</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$5000</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$234/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-7 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company1.jpg" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>Health</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>PPO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle gold"></span> <span>Gold</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>100%</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>$45</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$4500</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$366/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+					<div class="item-8 data_item">
+						<!-- Company -->
+						<div class="company table_item">
+							<img src="/img/company4.jpg" alt="">
+							<div class="name_company">
+								<span>Medicom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<!-- Covering -->
+						<div class="covering table_item">
+							<span>All-in-one</span>
+						</div>
+						<!-- Type -->
+						<div class="type table_item">
+							<span>EPO</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Metal level -->
+						<div class="metal_level table_item">
+								<span class="circle"></span> <span>Platinum</span> <img src="/img/q.jpg" class="img_q" alt="lorem ipsum">
+						</div>
+						<!-- Drugs -->
+						<div class="drugs table_item"><span>$15</span></div>
+						<!-- Primary care visits -->
+						<div class="primary_care_visits table_item"><span>50%</span></div>
+						<!-- Yearly deductible -->
+						<div class="deductible table_item"><span>$2600</span></div>
+						<!-- Price -->
+						<div class="price table_item"><span>$371/mon</span></div>
+						<div class="overview_buy table_item">
+							<button class=" b_overview">Overview</button>
+							<button class=" b_buy">Buy</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="grid">
+				<div class="main_grid">
+					<!-- item 1 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company1.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+					<!-- item 2 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company2.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+
+					<!-- item 3 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company3.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+
+					<!-- item 4 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company4.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+					<!-- item 5 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company1.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+					<!-- item 6 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company2.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+
+					<!-- item 7 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company3.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+
+					<!-- item 8 -->
+					<div class="grid_item">
+						<div class="grid--item_logo">
+							<img src="/img/company4.jpg" class="logo" alt="">
+							<div class="name_company">
+								<span>Insurcom</span>
+								<img src="/img/5-star.jpg" alt="">
+							</div>
+						</div>
+						<div class="grid--item_covering grid_desc">
+							<span class="grid--item_left">Covering:</span>
+							<span class="grid--item_right">Health</span>
+						</div>
+						<div class="grid--item_type grid_desc">
+							<span class="grid--item_left">Type:</span>
+							<span class="grid--item_right">PPO <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_metal grid_desc">
+							<span class="grid--item_left">Metal level:</span>
+							<span class="grid--item_right"><span class="circle platinum"></span> Platinum <img src="/img/q.jpg" alt=""></span>
+						</div>
+						<div class="grid--item_drugs grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Drugs:</span>
+								<span class="grid--item_right"> $15</span>
+						</div>
+						<div class="grid--item_primary grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Primary care visits:</span>
+								<span class="grid--item_right"> $75</span>
+						</div>
+						<div class="grid--item_deductible grid_desc">
+								<span class="grid--item_left"> <img src="/img/q.jpg" alt=""> Yearly Deductible:</span>
+								<span class="grid--item_right"> $6000</span>
+						</div>
+						<div class="grid--item_price">
+							<span>$356/</span>mon
+						</div>
+						<div class="grid--item_buyOverview">
+							<button class="grid_overview">Overview</button>
+							<button class="grid_buy">Buy</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+<div class="footer">
+	<div class="wrapper_footer">
+		<div>INSURE. All right reserved 2018</div>
+		<div class="menu_footer">
+			<span>Personal plans</span>
+			<span>Business plans</span>
+			<span>Guide</span>
+			<span>Blog</span>
+		</div>
+	</div>
+</div>
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
